@@ -9,7 +9,7 @@ RUN yarn install
 # Copy source code
 COPY . .
 
-# Accept and set RapidAPI-related build arguments
+# Accept and set RapidAPI-related build argumentsss
 ARG RAPIDAPI_KEY
 ARG RAPIDAPI_HOST
 ARG API_ENDPOINT_URL
