@@ -1,8 +1,10 @@
 import { CustomGenre } from "src/types/Genre";
 
-export const API_ENDPOINT_URL = import.meta.env.VITE_APP_API_ENDPOINT_URL;
+// src/constant.ts
 export const RAPIDAPI_KEY = import.meta.env.VITE_RAPIDAPI_KEY;
 export const RAPIDAPI_HOST = import.meta.env.VITE_RAPIDAPI_HOST;
+export const API_ENDPOINT_URL = import.meta.env.VITE_APP_API_ENDPOINT_URL;
+
 
 export const MAIN_PATH = {
   root: "",
